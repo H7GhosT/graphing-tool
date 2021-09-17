@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#grapher {
+  border-radius: 4px;
+  margin: 40px auto;
+  box-shadow: 1px 1px 10px black;
+  overflow: hidden;
+
+}
+
+.graphing-tool-app {
+  position: relative;
+  width: calc(1px * var(--width));
+  height: calc(1px * var(--height));
+}
+
+#hover-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pos-info {
+  position: absolute;
+  /* min-width: 150px; */
+  font-family: monospace;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  padding: 7px 10px;
+
+  box-shadow: 1px 1px 15px black;
+  pointer-events: none;
+
+  transition: opacity 0.3s;
+}
+
+.pos-info__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pos-info__left {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 5px;
+}

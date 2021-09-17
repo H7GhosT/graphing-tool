@@ -1,0 +1,12 @@
+{
+  "name": "graphing-tool",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url=./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
